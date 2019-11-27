@@ -9,6 +9,6 @@ for line in f:
     concat = str(user_agent) + ":" + line 
     #print (user_agent) 
     export = concat + "\n" + str(export)
-
+f2.write(export)
 f2.write (export)
 
